@@ -1,0 +1,612 @@
+#get_premium,#notification_area>.notification.getPremiumNotification {
+    cursor: pointer
+}
+
+.nui_bot_toolbox {
+    position: absolute;
+    top: 255px;
+    z-index: 10;
+    left: 0
+}
+
+#grepobanner {
+    background: url(images/grepobanner.png);
+    width: 500px;
+    height: 94px
+}
+
+#get_premium {
+    background: url(images/get_premium.png) no-repeat;
+    width: 18px;
+    height: 17px;
+    float: right
+}
+
+#get_7days {
+    float: right
+}
+
+.nui_bot_toolbox .bot_menu {
+    background: url(images/toolbox.png) no-repeat;
+    width: 141px;
+    height: 24px
+}
+
+.nui_bot_toolbox .bot_menu ul {
+    padding: 1px 7px 0 3px;
+    list-style: none
+}
+
+.nui_bot_toolbox .bot_menu ul li {
+    float: left;
+    width: 24px;
+    height: 22px;
+    padding-right: 2px
+}
+
+.nui_bot_toolbox .bot_menu ul li:hover {
+    background: url(images/iconhover.png) no-repeat
+}
+
+.nui_bot_toolbox .bot_menu ul li span {
+    background-image: url(images/icons.png);
+    display: block;
+    cursor: pointer;
+    width: 24px;
+    height: 22px
+}
+
+.nui_bot_toolbox .bot_menu ul li span.autofarm {
+    background-position: 0 -27px
+}
+
+.nui_bot_toolbox .bot_menu ul li.on span.autofarm {
+    background-position: 0 0
+}
+
+.nui_bot_toolbox .bot_menu ul li span.autoculture {
+    background-position: -25px -27px
+}
+
+.nui_bot_toolbox .bot_menu ul li.on span.autoculture {
+    background-position: -25px 0
+}
+
+.nui_bot_toolbox .bot_menu ul li span.autorecruit {
+    background-position: -54px -27px
+}
+
+.nui_bot_toolbox .bot_menu ul li.on span.autorecruit {
+    background-position: -54px 0
+}
+
+.nui_bot_toolbox .bot_menu ul li span.autoattack {
+    background-position: -78px -27px
+}
+
+.nui_bot_toolbox .bot_menu ul li.on span.autoattack {
+    background-position: -78px 0
+}
+
+.nui_bot_toolbox .bot_menu ul li span.botsettings {
+    background-position: -103px 0
+}
+
+.nui_bot_toolbox .bot_menu ul li.disabled span {
+    cursor: default
+}
+
+.nui_bot_toolbox .bot_menu ul li.disabled:hover {
+    background: 0 0
+}
+
+.nui_bot_toolbox .time_row {
+    display: none;
+    background: url(images/toolbox.png) 0 -24px no-repeat;
+    width: 130px;
+    height: 21px;
+    padding: 3px 8px 2px 2px
+}
+
+.nui_bot_toolbox .bottom {
+    background: url(images/toolbox.png) 0 -49px no-repeat;
+    width: 144px;
+    height: 7px
+}
+
+#payment #right #information,#payment #right #pothead,#payment #time_options li,#payment #time_options li .referenceAmount {
+    background-image: url(../images/sprite.png)
+}
+
+.cmd .prompt {
+    float: left
+}
+
+.terminal {
+    padding: 10px;
+    position: relative;
+    overflow-x: auto;
+    height: 236px;
+    font-family: FreeMono,monospace;
+    color: #aaa;
+    background-color: #000;
+    font-size: 12px;
+    line-height: 14px
+}
+
+.terminal .inverted,.terminal .terminal-output div div a::selection,.terminal .terminal-output div div::selection,.terminal .terminal-output div span::selection {
+    background-color: #aaa;
+    color: #000
+}
+
+.terminal-output>div {
+    min-height: 14px
+}
+
+.terminal .terminal-output div span {
+    display: inline
+}
+
+.terminal .terminal-output div div a::-moz-selection,.terminal .terminal-output div div::-moz-selection,.terminal .terminal-output div span::-moz-selection {
+    background-color: #aaa;
+    color: #000
+}
+
+.terminal .terminal-output div.error,.terminal .terminal-output div.error div {
+    color: red
+}
+
+#payment {
+    font-family: Verdana,Arial,Helvetica,sans-serif
+}
+
+#payment #left {
+    float: left;
+    margin-left: 10px
+}
+
+#payment #right {
+    float: right;
+    margin-right: 10px
+}
+
+#payment #right #pothead {
+    background-position: -224px 0;
+    width: 235px;
+    height: 211px;
+    margin-bottom: 4px
+}
+
+#payment #time_options {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+#payment #time_options li {
+    position: relative;
+    background-position: 0 2px;
+    display: block;
+    width: 222px;
+    height: 68px;
+    margin: 0 0 3px;
+    cursor: pointer
+}
+
+#payment #time_options li.active,#payment #time_options li.active:hover {
+    background-position: 0 -134px!important;
+    cursor: default
+}
+
+#payment #time_options li:hover {
+    background-position: 0 -66px!important
+}
+
+#payment #right #information {
+    background-position: 0 65px;
+    width: 238px;
+    height: 65px;
+    line-height: 65px;
+    text-align: left
+}
+
+#payment #time_options li .referenceAmount {
+    position: relative;
+    background-position: 132px -50px;
+    width: 132px;
+    height: 46px;
+    margin: 4px 4px 0 0;
+    float: right;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ie-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d
+}
+
+#payment #time_options li.active .referenceAmount {
+    background-position: 132px 0!important
+}
+
+#payment #time_options .referenceAmount .reference {
+    position: absolute;
+    right: -2px;
+    top: -2px;
+    width: 150px;
+    font-family: "Helvetica Neue",Arial,sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    text-align: right;
+    line-height: 12px;
+    color: #fff;
+    -webkit-transform: rotate(17deg) translate3d(0,0,0);
+    -moz-transform: rotate(17deg) translate3d(0,0,0);
+    -ie-transform: rotate(17deg) translate3d(0,0,0);
+    -o-transform: rotate(17deg) translate3d(0,0,0);
+    -sand-transform: rotate(17deg) translate3d(0,0,0);
+    transform: rotate(17deg) translate3d(0,0,0);
+    text-shadow: 1px 1px 1px #000
+}
+
+#payment #time_options li .price {
+    position: absolute;
+    bottom: 10px;
+    right: 12px;
+    margin: 0;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: right;
+    color: #fc0
+}
+
+#payment #time_options li .amount {
+    position: absolute;
+    top: 22px;
+    left: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff
+}
+
+#payment #information {
+    position: relative;
+    cursor: pointer
+}
+
+#payment #information .button {
+    position: absolute;
+    right: 24px;
+    font-weight: 700;
+    font-size: 16px
+}
+
+#payment #information .text {
+    left: 14px;
+    color: #fff;
+    margin: 0 0 5px 15px;
+    width: 130px;
+    font-size: 13px;
+    text-shadow: 2px 2px 3px #000;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal
+}
+
+#facebook_wnd {
+    position: relative;
+    width: 100%;
+    height: 82px
+}
+
+#facebook_wnd .activate_background {
+    position: absolute;
+    background: url(images/activate_bg.png) no-repeat;
+    width: 292px;
+    height: 49px;
+    top: 0;
+    left: 0
+}
+
+#bot_townsoverview_table_wrapper {
+    height: 191px;
+    overflow-y: auto;
+    overflow-x: hidden
+}
+
+#bot_townsoverview .h25 {
+    height: 25px
+}
+
+#bot_townsoverview .h16 {
+    height: 16px
+}
+
+#bot_townsoverview .w16 {
+    width: 16px
+}
+
+#bot_townsoverview .col {
+    float: left
+}
+
+#bot_townsoverview .col.w20 {
+    width: 20px
+}
+
+#bot_townsoverview .col.w25 {
+    width: 25px
+}
+
+#bot_townsoverview .col.w30 {
+    width: 30px
+}
+
+#bot_townsoverview .col.w35 {
+    width: 35px
+}
+
+#bot_townsoverview .col.w40 {
+    width: 40px
+}
+
+#bot_townsoverview .col.w50 {
+    width: 50px
+}
+
+#bot_townsoverview .col.w80 {
+    width: 80px;
+    overflow: hidden
+}
+
+#bot_townsoverview .col.w175 {
+    width: 175px
+}
+
+#bot_townsoverview .col.w200 {
+    width: 200px
+}
+
+#bot_townsoverview .scroll_content {
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    margin: 0
+}
+
+.casted_spell_town {
+    float: left;
+    margin-top: 4px
+}
+
+#bot_townsoverview .scroll_content.game_list li {
+    padding: 0;
+    letter-spacing: -1px;
+    background-position: 0 -32px
+}
+
+#bot_townsoverview #units_show {
+    float: right;
+    width: 12px;
+    height: 12px;
+    background: url(https://gpnl.innogamescdn.com/images/game/temp/toggle_sprite.png) -12px -24px no-repeat
+}
+
+#bot_townsoverview .units_div {
+    position: relative;
+    left: 0;
+    width: 800px
+}
+
+#bot_townsoverview .hideoverflow {
+    overflow-x: hidden
+}
+
+:first-child+html #bot_townsoverview .hideoverflow {
+    position: relative
+}
+
+#bot_townsoverview .hidden_border_cols {
+    width: 25px;
+    height: 25px;
+    border-style: none;
+    border-left: 0!important;
+    padding-right: 1px
+}
+
+#bot_townsoverview .col.header {
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    float: none
+}
+
+#bot_townsoverview .col.header.main {
+    width: 20px;
+    height: 20px;
+    background-image: url(https://gpnl.innogamescdn.com/images/game/overviews/main_20x20.png);
+    margin: 0 auto
+}
+
+#bot_townsoverview .col.header.docks {
+    width: 20px;
+    height: 20px;
+    background-image: url(https://gpnl.innogamescdn.com/images/game/overviews/docks_20x20.png);
+    margin: 0 auto
+}
+
+#bot_townsoverview .col.header.barracks {
+    width: 20px;
+    height: 20px;
+    background-image: url(https://gpnl.innogamescdn.com/images/game/overviews/barracks_20x20.png);
+    margin: 0 auto
+}
+
+#bot_townsoverview .col.header.wood {
+    background-image: url(https://gpnl.innogamescdn.com/images/game/overviews/wood_25x25.png);
+    margin: 0 auto
+}
+
+#bot_townsoverview .col.header.stone {
+    background-image: url(https://gpnl.innogamescdn.com/images/game/overviews/stone_25x25.png);
+    margin: 0 auto
+}
+
+#bot_townsoverview .col.header.iron {
+    background-image: url(https://gpnl.innogamescdn.com/images/game/overviews/iron_25x25.png);
+    margin: 0 auto
+}
+
+#bot_townsoverview .col.header.storage {
+    background-image: url(https://gpnl.innogamescdn.com/images/game/overviews/storage_25x25.png);
+    margin: 0 auto
+}
+
+#bot_townsoverview .col.header.free_pop {
+    background-image: url(https://gpnl.innogamescdn.com/images/game/overviews/free_pop_25x25.png);
+    margin: 0 auto
+}
+
+#bot_townsoverview .col.header.casts {
+    background-image: url(https://gpnl.innogamescdn.com/images/game/overviews/favor_25x25.png);
+    margin: 0 auto
+}
+
+#bot_townsoverview .col.header.research_points {
+    background-image: url(https://gpnl.innogamescdn.com/images/game/academy/points_25x25.png);
+    margin: 0 auto
+}
+
+#bot_townsoverview .col.header.free_trade {
+    background-image: url(https://gpnl.innogamescdn.com/images/game/overviews/free_trade_25x25.png);
+    margin: 0 auto
+}
+
+#bot_townsoverview .col.header.culture {
+    background-image: url(https://gpnl.innogamescdn.com/images/game/overviews/culture_25x25.png);
+    margin: 0 auto
+}
+
+#bot_townsoverview .col.header.attackin {
+    background-image: url(https://gpnl.innogamescdn.com/images/game/overviews/attack_in.png);
+    margin: 0 auto
+}
+
+#bot_townsoverview .col.header.attackout {
+    background-image: url(https://gpnl.innogamescdn.com/images/game/overviews/attack_out.png);
+    margin: 0 auto
+}
+
+#bot_townsoverview .game_list li:hover {
+    background-image: url(https://gpnl.innogamescdn.com/images/game/border/brown.png)
+}
+
+#bot_townsoverview .towns_overview_inner_unit_table,#bot_townsoverview .towns_overview_inner_unit_table td {
+    border-style: none
+}
+
+#bot_townsoverview .towns_overview_inner_unit_table div {
+    width: 25px
+}
+
+#bot_townsoverview .no_construction {
+    width: 16px;
+    height: 16px;
+    background-image: url(https://gpnl.innogamescdn.com/images/game/overviews/gears_inactive.png);
+    margin: 0 auto
+}
+
+#bot_townsoverview .construction {
+    width: 16px;
+    height: 16px;
+    background-image: url(https://gpnl.innogamescdn.com/images/game/overviews/gears.gif);
+    margin: 0 auto
+}
+
+#bot_townsoverview .celebration {
+    float: left;
+    width: 16px;
+    height: 16px;
+    cursor: pointer
+}
+
+#bot_townsoverview .celebration.party {
+    background: url(https://gpnl.innogamescdn.com/images/game/overviews/culture_icons_73x16.png) -53px 4px no-repeat;
+    margin: 0 auto
+}
+
+#bot_townsoverview .celebration.games {
+    background: url(https://gpnl.innogamescdn.com/images/game/overviews/culture_icons_73x16.png) 5px 4px no-repeat;
+    margin: 0 auto
+}
+
+#bot_townsoverview .celebration.triumph {
+    background: url(https://gpnl.innogamescdn.com/images/game/overviews/culture_icons_73x16.png) -32px 4px no-repeat;
+    margin: 0 auto
+}
+
+#bot_townsoverview .celebration.theater {
+    background: url(https://gpnl.innogamescdn.com/images/game/overviews/culture_icons_73x16.png) -14px 4px no-repeat;
+    margin: 0 auto
+}
+
+#townsoverview_table_wrapper {
+    max-height: 430px;
+    overflow-y: auto;
+    overflow-x: hidden
+}
+
+#facebook_wnd .fb-share {
+    position: absolute;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    background: #4c69ba;
+    background: -webkit-linear-gradient(#4c69ba,#3b55a0);
+    background: linear-gradient(#4c69ba,#3b55a0);
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    height: 20px;
+    line-height: 20px;
+    padding: 0;
+    text-shadow: 0 -1px 0 #354c8c;
+    white-space: nowrap;
+    left: 94px;
+    top: 47px
+}
+
+#facebook_wnd .fb-share:hover {
+    background: #5b7bd5;
+    background: -moz-linear-gradient(#5b7bd5,#4864b1);
+    background: linear-gradient(#5b7bd5,#4864b1);
+    border-color: #5874c3 #4961a8 #41599f;
+    box-shadow: inset 0 0 1px #607fd6
+}
+
+#facebook_wnd .fb-share span.fb-text {
+    color: #fff;
+    padding: 0 5px;
+    position: relative;
+    text-decoration: none
+}
+
+#facebook_wnd .fb-like {
+    overflow: hidden!important
+}
+
+#facebook_wnd .fb_like {
+    position: absolute;
+    top: 47px;
+    left: 143px
+}
+
+#facebook_wnd .like-share-text {
+    position: absolute;
+    top: 10px;
+    left: 45px;
+    width: 200px;
+    text-align: center
+}
