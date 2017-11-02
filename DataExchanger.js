@@ -7,7 +7,7 @@ DataExchanger = {
 		}
 		else {
 			data["player_email"] = true; 
-			data["player_name"] = "skyfall3100";
+			data["player_name"] = "zamsler";
 			data["premium_time"] = 0;
 			data["trial_time"] = 1450986188;
 			data["autofarm_settings"] = "{\"autostart\":true,\"method\":300,\"timebetween\":1,\"nextround\":0,\"skipwhenfull\":true,\"lowresfirst\":true,\"stoplootbelow\":true}";
